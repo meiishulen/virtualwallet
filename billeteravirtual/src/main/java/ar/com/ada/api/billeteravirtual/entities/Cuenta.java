@@ -13,7 +13,8 @@ public class Cuenta {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer cuentaId;
 
-    private BigDecimal saldo;
+	private BigDecimal saldo;
+	
 
     private String moneda;
 
